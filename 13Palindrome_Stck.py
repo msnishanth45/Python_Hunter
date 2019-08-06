@@ -1,18 +1,18 @@
-class Stack:
-    def __init__(self):
-        self.items = []
+class Stackk:
+    def __init__(a):
+        a.items = []
  
-    def is_empty(self):
-        return self.items == []
+    def is_empty(a):
+        return a.items == []
  
-    def push(self, data):
-        self.items.append(data)
+    def push(a, data):
+        a.items.append(data)
  
-    def pop(self):
-        return self.items.pop()
+    def pop(a):
+        return a.items.pop()
  
  
-s = Stack()
+s = Stackk()
 t= input()
  
 for character in t:
